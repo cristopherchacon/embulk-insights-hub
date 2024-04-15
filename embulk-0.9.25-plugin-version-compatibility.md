@@ -1,0 +1,22 @@
+## Embulk 0.9.25 latest compatible plugins
+
+| Plugin Name                      | Version | Author                                                   | Description                                                                                      |
+|----------------------------------|---------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------|
+| embulk-decoder-commons-compress  | 0.4.2 (Missing testing the latest 0.6.0) | [Hiroki Ata](https://github.com/hata)                    | Decodes files using Apache Commons Compress library.                                             |
+| embulk-filter-base64             | 0.2.0   | [Yusuke Nishioka](https://github.com/ysk24ok)            | Encodes/decodes string by Base64, Base32 and Base16.                                             |
+| embulk-filter-column             | 0.8.1 (Missing testing) | [Naotoshi Seo](https://github.com/sonots)                | Allows filter out columns.                                                                       |
+| embulk-filter-gsub               | 0.2.0   | [Tadashi Sawada](https://github.com/cesare)              | Convert text column values with regular expressions.                                             |
+| embulk-filter-insert             | 1.1.1   | [Masahiro Muzi Yoshizawa](https://github.com/muziyoshiz) | Inserts column(s) at any position                                                                |
+| embulk-filter-row                | 0.6.1 (Missing testing) | [Naotoshi Seo](https://github.com/sonots)                | Allows filter out rows with conditions.                                                          |
+| embulk-filter-script             | 0.0.1   | [SNakano](https://github.com/SNakano)                    | Allows executing external ruby scripts                                                           |
+| embulk-filter-timestamp_format   | 0.4.0 (Missing testing) | [Naotoshi Seo](https://github.com/sonots)                | Parses/converts timestamp format                                                                 |
+| embulk-input-bigquery            | 0.0.9 (Missing testing the latest 0.1.0) | [potato2003](https://github.com/potato2003)              | Reads from BigQuery                                                                              |
+| embulk-input-google_spreadsheets | 1.1.1   | [Takahiro Nakayama](https://github.com/civitaspo)        | Loads records from Google Spreadsheets.                                                          |
+| embulk-input-mysql               | 0.13.2  | [Sadayuki Furuhashi](https://github.com/frsyuki)         | Selects records from a table.                                                                    |
+| embulk-input-s3                  | 0.2.21 (Missing testing the latest 0.6.0) | [Sadayuki Furuhashi](https://github.com/frsyuki)         | Reads files stored on Amazon S3                                                                  |
+| embulk-input-sftp                | 0.4.0 (Missing testing) | [Satoshi Akama](https://github.com/sakama)                | Reads files stored on remote server using SFTP.                                                  |
+| embulk-output-bigquery           | 0.6.9   | [Satoshi Akama](https://github.com/sakama)               | Insert records to Google BigQuery.                                                               |
+| embulk-output-gcs                | 0.4.0 (Missing testing the latest 0.6.0) | [Kazuyuki Honda](https://github.com/hakobera)            | Dumps records to Google Cloud Storage                                                            |
+| embulk-output-mysql              | 0.8.7 (Missing testing the latest 0.10.5) | [Sadayuki Furuhashi](https://github.com/frsyuki)         | Inserts or updates records to a table.                                                           |
+| embulk-output-s3                 | 1.5.0 (Missing testing the latest 1.7.1) | [Manabu Takayama](https://github.com/llibra)             | Stores files on S3.                                                                              |
+| embulk-output-sftp               | 0.3.1 (Missing testing) | [Takahiro Nakayama](https://github.com/civitaspo)        | Stores files on SFTP server.                                                                     |
